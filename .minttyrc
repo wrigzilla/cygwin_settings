@@ -1,0 +1,6 @@
+BoldAsFont=no
+Term=xterm-256color
+CursorType=underscore
+ForegroundColour=0,255,255
+CursorColour=255,255,255
+Transparency=off
