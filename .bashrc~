@@ -213,23 +213,25 @@ alias cdg='cd /cygdrive/g'
 alias cdh='cd /cygdrive/h'
 alias cdi='cd /cygdrive/i'
 
-alias cdwamp='cd G:\\wamp64\\www'
+alias cdwamp='cd C:\\wamp\\www'
 alias cdcode='cd F:\\Coding'
 alias cddoc='cd F:\\Documents'
 
 alias ls='ls --color=auto'
 
-alias ga='git add'
-alias gb='git branch'
-alias gc='git commit'
-alias gm='git merge'
-alias gps='git push'
-alias gpl='git pull'
-alias gs='git status'
-alias gd='git diff'
+alias ga ='git add'
+alias gb ='git branch'
+alias gc ='git commit'
+alias gm ='git merge'
+alias gps ='git push'
+alias gpl ='git pull'
+alias gs ='git status'
+alias gd ='git diff'
 
-alias here='explorer .'
-
+function here()
+{
+    explorer pwd
+}
 
 #prompt display settings
 export PS1="$(tput setaf 69)\u@\h$(tput setaf 81)[\t]\w \n->$(tput sgr0)"
